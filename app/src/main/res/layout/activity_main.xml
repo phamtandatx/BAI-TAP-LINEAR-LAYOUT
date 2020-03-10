@@ -7,42 +7,33 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <LinearLayout
+        android:weightSum="10"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="60">
 
-        <LinearLayout
-            android:layout_weight="35"
+        <TextView
+            android:layout_weight="6"
+            android:background="#ed1b24"
+            android:textColor="#f9ffff"
+            android:textSize="80sp"
+            android:gravity="center"
+            android:text="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <TextView
-                android:background="#ed1b24"
-                android:textColor="#f9ffff"
-                android:textSize="80sp"
-                android:gravity="center"
-                android:text="1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-            </TextView>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_weight="25"
+        </TextView>
+        <TextView
+            android:layout_weight="4"
+            android:background="#fef102"
+            android:textColor="#f9ffff"
+            android:textSize="80sp"
+            android:gravity="center"
+            android:text="2"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
-                android:background="#fef102"
-                android:textColor="#f9ffff"
-                android:textSize="80sp"
-                android:gravity="center"
-                android:text="2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-            </TextView>
-        </LinearLayout>
+        </TextView>
 </LinearLayout>
 
     <LinearLayout
